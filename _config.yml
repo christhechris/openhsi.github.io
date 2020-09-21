@@ -1,58 +1,42 @@
-# Site settings
-title: OpenHSI Project
-email: christopher.betters@sydney.edu.au
-description: >
-  OpenHSI Website
-  providing documentation and blog post pages.
-lang: en-US
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
 
-baseurl: "/jekyll-doc-theme" # the subpath of your site, e.g. /blog/
-url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
-git_address: https://github.com/aksakalli/jekyll-doc-theme
-git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
+title: OpenHSI
+description: Homepage
+github_username: openhsi
 
-# theme options from https://bootswatch.com/3/
-# comment out this to use default Bootstrap
-bootwatch: solar # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
+# Email and twitter are optional:
+email: <yiwei.mao@sydney.edu.aum>
+twitter_username: 
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-# Plugins (previously gems:)
+# Set this to true to get LaTeX math equation support
+use_math: true
+
+# Add your Google Analytics ID here if you have one and want to use it
+google_analytics: 61578211
+
+# Everything below here can be ignored, unless you want to change the theme entirely
+theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-octicons
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - .idea/
-  - .gitignore
-  - README.md
-timezone: Europe/Berlin
-defaults:
-  - scope:
-      path: _posts
-      type: posts
-    values:
-      layout: post
-      sectionid: blog
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true
 
-  - scope:
-      path: _docs
-      type: docs
-    values:
-      layout: docs
-      sectionid: docs
-      seo:
-        type: "WebPage"
-
-collections:
-  docs:
-    permalink: /:collection/:path/
-    output: true
-  posts:
-    permalink: /blog/:year/:month/:day/:title/
-    output: true
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  math_engine: katex
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
