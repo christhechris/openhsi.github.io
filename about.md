@@ -3,7 +3,8 @@
 This webpage is for OpenHSI: An open source hyperspectral imager.
 
 # Dr Bradley Evans – DST Group, Maritime
-![](https://www.cuava.com.au/wordpress/wp-content/uploads/bradevans.jpg)
+<img src="https://www.cuava.com.au/wordpress/wp-content/uploads/bradevans.jpg" alt="drawing" width="200"/>
+
 Brad’s research is focused on the use of Earth Observation, using spectral cameras, UAV’s, Aircraft, CubeSats and Satellites to enhance our understanding of the Carbon and Water cycle. In a practical sense, this involves mapping and modelling plant growth, crop yield and other plant related activities remotely. This research is achieved through using the state-of-the-art in sensors, Hyperspectral Imaging Spectrometers, Thermal imagers and a range of Multispectral and Spectroscopy based approaches.
 
 Brad has been a Director of the Terrestrial Ecosystem Research Network Ecosystem Modelling and Scaling Infrastructure, and Director of Sydney Informatics Hub.
