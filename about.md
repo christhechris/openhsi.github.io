@@ -1,6 +1,19 @@
 # About
+OpenHSI is a complete camera and software hyperspectral imaging system developed by staff and students at the University of Sydney, originally funded by The Commonwealth of Australia’s Defence Science and Technology Group (DSTG), Maritime Division. Ongoing work is currently funded by DSTG’s StarShot program on Remote Undersea Surveillance as part of the ‘More Together’ Strategy.
 
-This webpage is for OpenHSI: An open source hyperspectral imager.
+The OpenHSI projects goal is to proliferate deeper understanding of Hyperspectral Imaging Spectroscopy through making the system open, and providing best practice tools to create (3D print and assemble), calibrate and operate an imager, that is affordable for Science and Engineering specialists in Remote Sensing. To this end, the software uses OpenSource tools as much as possible including NASA’s 6S radiative transfer model through the Py6S python software.
+
+The University of Sydney’s Associate Professor Sergio Leon-Saval and Dr Christopher Betters of the Sydney Astrophotonic Instrumentation Laboratory (SAIL) developed the first OpenHSI camera from previously published designs, adapting it to readily available materials, and thus incrementally changing the design, at the request of Dr Bradley Evans and his team from DSTG. 
+
+The Australian Research Council funded training centre CubeSats, UAV and their applications (CUAVA) students Yiewei Mao (PhD Candidate) and Samuel Garske (PhD candidate) developed their software to support the camera as part of their PhD and have publications pending on their work. Professors Iver Cairns and Associate Professor K.C.Wong and Dr Bradley Evans supervise Yiwei and Sam. 
+
+Robonation, co-organisers of the RobotX 2022 Event in Sydney, together with DSTG and funded by the Next Generation Technologies Fund, will use a version of the OpenHSI system in the Australian based event. 
+
+Since the project commenced, University of Sydney supported start-up, Sydney Photonics, lead by Dr Christopher Betters will commercialise the technology and supply competitors in the RobotX 2022 competition with OpenHSI cameras developed for Robonation.
+
+Join us in making use of this technology, help us enhance the communities understanding of hyperspectral imaging spectroscopy. We encourage you to participate in the community and support the work of the OpenHSI team.
+
+
 
 # Dr. Bradley Evans – DST Group, Maritime
 <img src="https://www.cuava.com.au/wordpress/wp-content/uploads/bradevans.jpg" alt="drawing" style="width:20%" align="left" hspace="220" vspace="20"/>
