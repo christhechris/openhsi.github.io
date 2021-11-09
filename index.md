@@ -6,7 +6,8 @@ Hello and welcome to the homepage for OpenHSI! <br>
 [https://openhsi.github.io/openhsi/](https://openhsi.github.io/openhsi/)
 
 
-# CAD Models
+# Python Library
 
+[https://github.com/openhsi/openhsi/tree/master/](https://github.com/openhsi/openhsi/tree/master/)
 
-[https://openhsi.github.io/](https://openhsi.github.io/)
+PyPi [https://pypi.org/project/openhsi/](https://pypi.org/project/openhsi/)
